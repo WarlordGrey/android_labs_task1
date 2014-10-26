@@ -41,13 +41,23 @@ public class GameLogic {
 		return MAX_COUNT_ROCKS_TO_PICK;
 	}
 	
-	private boolean isPlayerWin(){
-		//TODO
-		return false;
+	private boolean isPlayerWon(){
+		return (currentRocksCount <= WIN_LIMIT) ? true : false;
 	}
 	
 	private void play(LinkedList<Player> players){
-		//TODO		
+		while (true){
+			for (Player player : players) {
+				pickSomeRocks(player.getPickedRocks());
+				if (isPlayerWon()){
+					winner = player;
+					break;
+				}
+			}
+			if (isPlayerWon()){
+				break;
+			}
+		}
 	}
 
 	public Player getWinner() {
