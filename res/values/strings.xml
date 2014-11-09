@@ -4,5 +4,33 @@
     <string name="app_name">12 Rocks</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="easyComputerName">easy android</string>
+    <string name="defaultPlayerName">default player</string>
+    <string name="player1">player 1</string>
+    <string name="player2">player 2</string>
+
+    <color name="themeStandart">#81DFA0</color>
+
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="playerVsPlayer">Player vs Player</string>
+    <string name="playerVsComputer">Player vs Computer</string>
+    <string name="exit">Exit</string>
+
+    <color name="buttonsStandart">#D586CE</color>
+
+    <string name="turnInfo">Now turn of Player:</string>
+    <string name="rocksLeft">Rocks left:</string>
+    <string name="rocksToPick">Rocks to Pick:</string>
+    <string name="btnSurrender">Surrender</string>
+    <string name="btnPickRocks">Pick rocks</string>
+
+    <color name="player1Color">#230000</color>
+    <color name="player2Color">#002300</color>
+
+    <string name="title_activity_win">WinActivity</string>
+    <string name="winnerInfo">Winner:</string>
+    <string name="btnMenu">Main menu</string>
+    <color name="editStandart">#DE789E</color>
+    <color name="labelStandart">#77FFFFFF</color>
 
 </resources>
